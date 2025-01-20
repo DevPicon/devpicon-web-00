@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      # Step 4: Build the static site
+      # Step 4: Build the site (build + export happens automatically with `output: export`)
       - name: Build Site
         run: npm run build
 
